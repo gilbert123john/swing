@@ -73,7 +73,7 @@ public class HomePage {
 			public void actionPerformed(ActionEvent e) {
 				adminLogin al = new adminLogin();
 				al.setVisible(true);
-				frame.dispose();
+				frame.dispose();//used for close slide
 			}
 		});
 		btnAdmin.setFont(new Font("Tahoma", Font.BOLD, 15));
